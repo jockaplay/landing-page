@@ -105,7 +105,7 @@ header .right ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://github.com/jockaplay/landing-page/blob/main/img/fundo.jpg");
+    background-image: url("https://raw.githubusercontent.com/jockaplay/landing-page/main/img/fundo.jpg");
     padding: 3rem;
     height: auto;
     background-attachment: fixed;
