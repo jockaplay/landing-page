@@ -247,6 +247,10 @@ h2 {
     padding: 3rem;
 }
 
+.details .divider{
+    gap: 2rem;
+}
+
 .details .divider .left ul{
     display: flex;
     flex-direction: column;
@@ -293,32 +297,28 @@ h2 {
     font-size: 2rem;
 }
 
-.shower {
+progress {
     width: 100%;
-    fill: #2F3273;
-}
-
-.shower:disabled {
-    -webkit-appearance: none; /* Override default look */
-    appearance: none;
-    width: 100%; /* Set a specific slider handle width */
-    height: .3rem; /* Slider handle height */
-    border-radius: .3rem;
-    background: var(--cor-primaria); /* Green background */
+    background: var(--cor-primaria);
+    height: .3rem;
+    border-radius: 40px;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
     border: solid 1px var(--cor-secundaria0);
 }
 
-.shower::-moz-range-progress {
-    background-color: var(--cor-secundaria0);
+progress::-webkit-progress-bar {
+    background: transparent;
+    border-radius: 40px;
 }
 
-.shower::-moz-range-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 0px;
-    height: 0px;
+progress::-moz-progress-bar {
     background: var(--cor-secundaria0);
-    border: none;
+}
+
+progress::-webkit-progress-value {
+    background: var(--cor-secundaria0);
+    border-radius: 40px;
 }
 
 /* ---------------- Fim ----------------- */
@@ -338,7 +338,6 @@ footer{
     header .left{display: none;}
     .divider {justify-content: center;}
     .divider2 {flex-direction: column; justify-content: center;}
-    .divider3 {gap: 0;}
-    .shower {width: 80%;}
+    .divider3 {gap: 2rem;}
     :root{--margin: 2.5rem}
 }
