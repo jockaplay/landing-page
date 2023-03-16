@@ -14,11 +14,11 @@
     <header id="header"> <!-- mg01 == marginPrincipal -->
         <div class="mg01">
             <div class="divider">
-                <div class="left"><h1>JOCKA</h1></div><div class="right"><ul><li><a href="#">Início</a></li><li><a href="#">Sobre</a></li><li><a href="#">Habilidades</a></li><li><a href="#">Resumo</a></li><li><a href="#">Portfólio</a></li><li><a href="#">Contato</a></li></ul></div>
+                <div class="left"><h1>JOCKA</h1></div><div class="right"><ul><li><a onclick="{scrollToSection('home')}">Início</a></li><li><a onclick="{scrollToSection('about')}">Sobre</a></li><li><a onclick="{scrollToSection('skills')}">Habilidades</a></li><li><a onclick="{scrollToSection('projects')}">Projetos</a></li><li><a href="#">Contato</a></li></ul></div>
             </div>
         </div>
     </header>
-    <section class="landing">
+    <section class="landing" id="home">
         <div class="card">
             <img src="img\170477667_826186994635862_7782592049733862117_n.jpg" alt="profile" srcset="">
             <div class="me">
@@ -36,7 +36,7 @@
             </div>
         </div>
     </section>
-    <section class="about firstSec">
+    <section class="about firstSec" id="about">
         <div class="icon"><ion-icon class="mainIcon" name="rocket"></ion-icon></div> 
         <div class="mg01">
             <h2>Sobre</h2>
@@ -71,7 +71,7 @@
                 </div>
         </div>
     </section>
-    <section class="skills secondSec">
+    <section class="skills secondSec" id="skills">
         <div class="icon"><ion-icon class="mainIcon" name="stats-chart"></ion-icon></div> 
         <div class="mg01">
             <h2>Habilidades</h2>
@@ -95,6 +95,26 @@
                         <li><p>Dedicação</p><progress value="100" max="100"></li>
                         <li><p>Pontualidade</p><progress value="90" max="100"></li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects firstSec" id="projects">
+        <div class="icon"><ion-icon class="mainIcon" name="library"></ion-icon></div>
+        <div class="mg01">
+            <h2>Projetos</h2>
+            <div class="container">
+                <div class="pjtblock">
+                    <img class="imgPjt proEmpty" src="" alt="." srcset="">
+                    <p>Em Breve</p>
+                </div>
+                <div class="pjtblock">
+                    <img class="imgPjt proEmpty" src="" alt="." srcset="">
+                    <p>Em Breve</p>
+                </div>
+                <div class="pjtblock">
+                    <img class="imgPjt proEmpty" src="" alt="." srcset="">
+                    <p>Em Breve</p>
                 </div>
             </div>
         </div>

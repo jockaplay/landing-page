@@ -321,6 +321,40 @@ progress::-webkit-progress-value {
     border-radius: 40px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pjtblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imgPjt {
+    display: flex;
+    background-color: var(--cor-clara);
+    width: 14rem;
+    height: 10rem;
+    border-radius: .4rem;
+}
+
+.proEmpty {
+    content: "Hello";
+    background-color: #0c0d1f;
+}
+
+.proEmpty::after{
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    transform: translateY(20px);
+    content: "Em breve";
+    background-color: #13142f;
+}
+
 /* ---------------- Fim ----------------- */
 footer{
     background-color: var(--cor-primaria);
@@ -332,6 +366,12 @@ footer{
 @media screen and (max-width: 1200px) {
     :root{
         --margin: 5rem;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
     }
 }
 @media screen and (max-width: 800px) {
