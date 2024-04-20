@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section>
+        <section id="sobre">
             <div className="bg-purple-950 text-white px-10 md:px-20 space-y-20 pt-10">
                 <h2 className="text-center text-3xl font-semibold border-b-2 pb-10">Sobre</h2>
                 <div className="flex space-x-10 justify-between">
@@ -12,7 +12,7 @@ const About = () => {
                     </a>
                 </div>
                     <div className="flex justify-center">
-                    <ul className="flex">
+                    <ul className="flex flex-wrap justify-center">
                         <li className="text-4xl px-5 transition duration-500 ease-out hover:scale-125">
                             <ion-icon name="logo-python"></ion-icon>
                         </li>
