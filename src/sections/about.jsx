@@ -7,7 +7,7 @@ const About = () => {
                     <p className="md:w-6/12 text-justify">Olá, <span className="font-bold">meu nome é Jocka</span>. Atualmente estudando na Universidade Federal de Alagoas, cursando ciência da computação, procuro oportunidades de adquirir experiência na área de programação e tecnologia.<br/><br/>
                     Sempre fui apaixonado por tecnologia e por volta de 2019 entrei no mundo da programação e achei incrível, desde então tenho me aperfeiçoado e me proficionalizado cada vez mais, já fiz alguns projetos comerciais na empresa que trabalhava e alguns projetos pessoais, mas ainda não entrei em um grande projeto, e espero conseguir por meio deste site, mais visibilidade para talvez encontrar estas oportunidades.</p>
                     <a href="https://jockaplay.itch.io/" target="_blank" className="hidden md:flex flex-col text-center justify-center space-y-5 border-2 rounded-lg border-dashed object-cover w-5/12 px-20">
-                        <img className="object-scale-down w-50 h-50" src="landing-page/src/assets/store.png" alt="" srcset="" />
+                        <img className="object-scale-down w-50 h-50" src="https://i.postimg.cc/MHGt9x1D/store.png" alt="" srcset="" />
                         <p>Game store</p>
                     </a>
                 </div>
@@ -37,7 +37,7 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <img src="src\assets\wave.svg" alt="" srcset="" />
+            <img className="w-full" src="https://i.postimg.cc/Pxy2bNvJ/wave.png" alt="" srcset="" />
         </section>
     )
 }
