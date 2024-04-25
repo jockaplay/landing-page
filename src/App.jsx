@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/footer';
 import Header from './components/header';
 import UpButton from './components/upButton';
 import About from './sections/about';
@@ -13,6 +14,7 @@ const App = () => {
       <Landing/>
       <About/>
       <Projects/>
+      <Footer/>
     </main>
   )
 };
